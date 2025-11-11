@@ -1,43 +1,66 @@
-<<<<<<< HEAD
-# 🖥️ Desktop Notifier App
+# 🖥️ Desktop Notifier App (Python + Pillow)
 
-This is a simple Python project that displays desktop notifications for pending tasks using the `win10toast` library.
+This is a simple **Python project** that displays desktop notifications for pending tasks using the **win10toast** library.  
+It can help you manage your to-do list and ensure you don’t miss any important deadlines.
+
+---
 
 ## 📋 Features
-- Reads tasks from `tasks.json`
-- Shows desktop pop-up reminders
-- Supports custom notification icons
-- Built using Python
+- ✅ Reads tasks from `tasks.json`  
+- 🔔 Shows desktop pop-up reminders  
+- 🖼️ Supports custom notification icons  
+- 💡 Built using Python  
+- 🎨 Uses **Pillow** for image customization  
+
+---
 
 ## 🧠 How to Run
-1. Install dependencies:
-2. Run the app:
-3. Edit `tasks.json` to add your own tasks.
 
-## 🧩 Technologies Used
-- Python
-- Win10Toast
-- Pillow
-
-## 📦 Output Example
-A pop-up notification will appear on your Windows desktop reminding you about your task.
-🛠️ Installation & Setup
-1. Clone or Download this Repository
-
-2. Install Required Packages
+### 1. Install Dependencies
+```bash
 pip install pillow win10toast
+2. Run the App
 
-3. Run the App
 python student_notifier.py
+3. Add Your Tasks
+Edit the tasks.json file and include your own reminders or task list.
+
+🧩 Technologies Used
+Python
+
+Win10Toast
+
+Pillow
+
+📦 Output Example
+A small Windows desktop notification pops up reminding you about your upcoming tasks or events.
+
+(Example: “Don’t forget to submit your assignment by 5 PM!”)
+
+🛠️ Installation & Setup
+Clone or Download this Repository
+
+git clone https://github.com/Saloni1911R/Desktop-notifer-Pillow.git
+cd Desktop-notifer-Pillow
+Install Required Packages
 
 
+pip install pillow win10toast
+Run the App
+
+python student_notifier.py
 👨‍💻 Author
-
 Saloni Ramavat
-ICT Department, Marwadi University
-Project: Student Desktop Notifier using Python
-Year: 2025
-=======
-# Desktop-notifer-Pillow
-A desktop notifier app can keep track of your to-do list and ensure you don’t miss any important deadlines. This Python project involves building a simple app that displays notifications on your desktop when a task is due. It will help you learn the Python requests module to fetch data from a remote API,
->>>>>>> 0f8d79fad71ea8af9d83c3e77da54b57adef1f53
+🎓 ICT Department, Marwadi University
+📅 Year: 2025
+📘 Project: Student Desktop Notifier using Python
+
+🪶 Description
+A desktop notifier app that can keep track of your to-do list and ensure you don’t miss important deadlines.
+This project also helps you learn how to:
+
+Fetch data using the requests module
+
+Create images using Pillow
+
+Send real-time notifications on Windows
